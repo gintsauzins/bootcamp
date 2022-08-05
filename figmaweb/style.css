@@ -1,11 +1,12 @@
 body {
-  background-image: url(/figmaweb/assets/Rectangle\ 15.jpg);
-  background-repeat: no-repeat;
+  margin: 0;
 }
 
-.header {
-  width: 100wh;
-  height: 100wh;
+header {
+  background-image: url(/figmaweb/assets/Rectangle\ 15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .nav {
@@ -17,16 +18,12 @@ body {
 .nav__top-search i {
   margin-left: 465px;
 }
-.nav__top-links {
-  display: flex;
-}
 
 .nav__top-logo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0px;
   position: absolute;
   width: 1200px;
   height: 76px;
@@ -34,22 +31,97 @@ body {
   top: 0px;
 }
 
-.nav__top-search {
-  margin-left: 600px;
-  margin-top: 20px;
+input {
+  margin-left: 752px;
+  margin-top: 16px;
   width: 288px;
   height: 41px;
   box-sizing: border-box;
   position: absolute;
   border: 1px solid #ffffff;
   border-radius: 20px;
+  background-color: rgba(170, 166, 166, 0.1019607843);
+}
+
+::-moz-placeholder {
+  text-align: center;
+  color: white;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+::placeholder {
+  text-align: center;
+  color: white;
 }
 
 .border {
   position: absolute;
-  width: 1200px;
+  width: 1650px;
   height: 0px;
   left: 120px;
   top: 77px;
   border: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.nav__top-links {
+  display: flex;
+  margin-left: 1628px;
+  margin-top: 37px;
+  padding: 0px;
+  gap: 32px;
+  width: 170px;
+  height: 40px;
+}
+
+#link-btn {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-text h1 {
+  position: absolute;
+  width: 792px;
+  height: 140px;
+  left: 117px;
+  top: 140px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.header-text h3 {
+  position: absolute;
+  width: 792px;
+  height: 32px;
+  left: 117px;
+  top: 296px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.header-text p {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  left: 120px;
+  top: 344px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
