@@ -1,0 +1,10 @@
+
+
+
+.icon-background {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-image: url(icon1.svg);
+    fill: blue;
+  }
