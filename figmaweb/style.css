@@ -1,0 +1,55 @@
+body {
+  background-image: url(/figmaweb/assets/Rectangle\ 15.jpg);
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100wh;
+  height: 100wh;
+}
+
+.nav {
+  display: flex;
+}
+.nav__top-logo {
+  display: flex;
+}
+.nav__top-search i {
+  margin-left: 465px;
+}
+.nav__top-links {
+  display: flex;
+}
+
+.nav__top-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+  position: absolute;
+  width: 1200px;
+  height: 76px;
+  left: 120px;
+  top: 0px;
+}
+
+.nav__top-search {
+  margin-left: 600px;
+  margin-top: 20px;
+  width: 288px;
+  height: 41px;
+  box-sizing: border-box;
+  position: absolute;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.border {
+  position: absolute;
+  width: 1200px;
+  height: 0px;
+  left: 120px;
+  top: 77px;
+  border: 0.5px solid rgba(255, 255, 255, 0.8);
+}/*# sourceMappingURL=style.css.map */
