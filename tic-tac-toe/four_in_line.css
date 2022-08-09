@@ -1,0 +1,49 @@
+/** @format */
+
+h1 {
+    text-align: center;
+}
+
+.four-in-line {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    grid-gap: 2px;
+    width: 604px;
+    height: 604px;
+    margin: 20px auto;
+  }
+  
+  .four-in-line a {
+    background: rgb(158, 83, 83);
+    text-decoration: none;
+    text-align: center;
+    line-height: 56px;
+    font-size: 45px;
+    color: rgb(223, 223, 223);
+  }
+  
+
+  .four-in-line {
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  }
+  
+  .four-in-line a {
+    line-height: 56px;
+    font-size: 45px;
+  }
+  
+  .btn {
+    background: rgb(226, 226, 226);
+    border: 1px solid #000;
+    color: rgb(68, 68, 68);
+    display: block;
+    margin: 20px auto;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: fit-content;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
