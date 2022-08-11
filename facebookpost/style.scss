@@ -1,0 +1,263 @@
+body {
+    display: flex;
+}
+
+.container{
+    display: flex;
+    width: 471px;
+    height: 635px;
+    top: 150px;
+    border-radius: 8px;
+    border: 1px solid #CFD0D4;
+}
+
+.photobox {
+    display: flex;
+    position: absolute;
+    width: 471px;
+    height: 281px;
+    top: 150px;
+    background: #3d3d3d;
+}
+
+.profilebox {
+    display: flex;
+    position: absolute;
+    width: 459.33px;
+    height: 137.9px;
+    top: 6px;
+    left: 16px;
+}
+
+.profilephoto img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.name h1 {
+    display: flex;
+    width: 209.05px;
+    height: 18.13px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #080808;
+    bottom: 111px;
+    left: 45px;
+}
+
+.name p {
+    display: flex;
+    width: 209.05px;
+    height: 18.13px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #080808;
+    bottom: 87px;
+    left: 45px;
+}
+
+.icons svg {
+    display: flex;
+    position: absolute;
+    width: 17px;
+    height: 37.9px;
+    top: 6px;
+    left: 172px;
+    
+}
+
+.optionpoints svg {
+    position: absolute;
+    width: 16.33px;
+    height: 4px;
+    left: 420px;
+    top: 10px;
+    
+}
+
+.profiletext p {
+    position: absolute;
+    top: 35px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}
+
+
+
+.emojibox {
+    display: flex;
+    position: absolute;
+    width: 466px;
+    height: 18px;
+    top: 451px;
+    left: 18px;
+}
+
+
+.emojitext p {
+    position: absolute;
+    width: 161px;
+    height: 18px;
+    left: 136px;
+    top: -14px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #66676B;
+}
+
+.emojitext2 p {
+    position: absolute;
+    width: 161px;
+    height: 18px;
+    left: 320px;
+    top: -14px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #66676B;
+}
+
+
+.likebox {
+    display: flex;
+    position: absolute;
+    width: 460px;
+    height: 42px;
+    top: 481px;
+    left: 17px;
+    background: #ffffff;
+    border-bottom: 1px solid #CFD0D4;
+    border-top: 1px solid #CFD0D4;
+    
+}
+
+.like {
+    display: flex;
+}
+
+.like svg {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.like h5 {
+    position: absolute;
+    left: 72px;
+    top: -10px;
+    color: #66676B;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment svg {
+    position: absolute;
+    left: 202px;
+    top: 10px;
+}
+
+.comment h5 {
+    position: absolute;
+    left: 222px;
+    top: -10px;
+    color: #66676B;
+}
+
+
+.share {
+    display: flex;
+}
+
+.share svg {
+    position: absolute;
+    left: 352px;
+    top: 10px;
+}
+
+.share h5 {
+    position: absolute;
+    left: 372px;
+    top: -10px;
+    color: #66676B;
+}
+
+
+.commentbox {
+    display: flex;
+    position: relative;
+    width: 471px;
+    height: 92px;
+    top: 532px;
+    left: 16px;
+}
+
+.commentphoto img {
+    border-radius: 50%;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    top: 31px;
+}
+
+.commentbox textarea {
+    position: relative;
+    width: 400px;
+    height: 36px;
+    left: 11px;
+    top: 27px;
+    background: #F1F2F5;
+    border-radius: 100px;
+}
+
+.commenttext p {
+    position: absolute;
+    width: 115px;
+    height: 18px;
+    right: 345px;
+    top: 60px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #66676B;
+}
+
+.commentmost p {
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 343px;
+    bottom: 57px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #66676B;
+}
+
+.commenticons svg {
+    position: absolute;
+    left: 363px;
+    top: 40px;
+}
+
+
+

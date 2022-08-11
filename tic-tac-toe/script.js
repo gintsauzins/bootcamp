@@ -7,6 +7,18 @@ iedot x vai 0 - bus darbiba*/
 
 /*izveidot masivu*/
 
+
+ /*partvert klikski (testam var likt ar alert) document.querySelector('.game_borad').onclick = function () { 
+ alert();
+};
+
+document.querySelector('.game_borad').onclick = function (event) { 
+    event.preventDefault();   saadi izsauc nokluseetu definejumu
+ alert();
+};
+*/
+
+
 document.querySelectorAll(".game_board a")
 
 let cells = document.querySelectorAll(".game_board a")
@@ -24,7 +36,7 @@ for (let index = 0; index < cells.length; index++) {
     }
 
 
-    
+
 
 
 }

@@ -1,0 +1,13 @@
+<script>
+    function example1(param1) {
+        console.log(this);
+        console.log(param1)
+    }
+
+    example1.bind('THIS VALUE')('test value');
+
+    example1.bind('THIS VALUE');
+
+    example1('first');
+
+</script>
