@@ -1,5 +1,4 @@
 async function fetchAPI(url, callback) {
-    console.log('request has been send');
 
     //const response = await fetch(url, { method: 'POST', body: data });
     const response = await fetch(url);
@@ -10,12 +9,18 @@ async function fetchAPI(url, callback) {
     }
 }
 
-console.log('A');
+
 document.querySelector('.fetch_btn').onclick = function () {
     console.log('C');
     fetchAPI('https:\/\/dog.ceo/api/breeds/image/random', function (response) {
         addImg(response.message);
     });
-    console.log('D');
+    
 };
-console.log('B');
+
+let images_el = document.querySelector(".images");
+        function addImg(src) {
+          const img = document.createElement("img");
+          img.src = src;
+          images_elm.append(img);
+        }

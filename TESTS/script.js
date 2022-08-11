@@ -1,3 +1,22 @@
+
+/**
+ * 1.nodefinēt mainīgo "a" ar vērtību 5;
+ * 2. pieskaitīt mainīgajam a skaitli 3;
+ * 3. izveidot nosacījumu kur mainīgais a kļūs par 1 lielāks ja mainīgais a vienāds ar skaitli 8
+ */
+
+//1.
+let a = 5;
+//2.
+a = a + 3;
+//3.
+if (a == 8)
+    a++;
+
+
+
+
+
 // Mainīgie____________________________
 let text = 'Sodien ir 26.novembris'; //sis ir teksts jo ''
 console.log(text);
@@ -47,7 +66,7 @@ let id = 53;
 
 if (id == 53) //konstrukcijas , piemeram  ja id ir vienads ar 53, tad izvadis šo rindu kas ir console log) ,
     console.log('Alises BMW auto krāsa: ' + obj_person[id].cars.BMW.color); // bet ja bus aplams, tad izpildiisies else
-else  if (id == 45)
+else  if (id == 45) //ja ir viendas ar 45 tad izvadiisies nepareizs ID (naakamaa darbiiba)
     console.log('Nepareizs ID');
     //cikls
 for (let i = 0; i <= 10; i = i + 2)   // let i = 0; nodefinee mainiigo, i <=10 - parada, ja i ir mazaks par 10, tad izpildiisies cikls, i = i + 2 - tad raksta, kaa i mainīsies ja nostrādās šis kods (i <= mazaks par 10)
@@ -57,18 +76,30 @@ for (let i = 0; i <= 10; i = i + 2)   // let i = 0; nodefinee mainiigo, i <=10 -
 // 53 == '53' => true (nav aplams) divas vienadibas zimes nozime, ja ievaditais skaitlis bus 53, tad bus true un nostradas
 // 53 == '53' => false (aplams)
 
+
+let number_x = 10;  //nosaka mainigo ka number_x ir 10
+if (number_x >= 2 && number_x <= 7 || number_x == 10)  //taisa ciklu vai number_x ir lielaks vai vienāds kā 2 un mazaks vai vienads ka 7 ||vai vienads ar 10
+    console.log(number_x + ' is between 2 and 7 or ==euqilalent 10');
+
+
+
+
+
 //funckija
 
 function sumAll(arr) {  //nodefinee funkciju
     console.log(arr);
-    let sum = 0; //nodefine mainigo
-    for (let i = 0; i < arr.lenght;) //raksta ciklu  lai liktu tradat funkcijai, ir jauzraksta cikls kura bridi jastrada funkcijai
+    let sum = 0; //nodefine mainigo 
+    for (let i = 0; i < arr.lenght; i++) //raksta ciklu  lai liktu stradat funkcijai, ir jauzraksta cikls kura bridi jastrada funkcijai
         sum += arr[i];
-    return sum; //un kad cikls nostradajis, tad izvadam summu
+    return sum; //un kad cikls nostradajis, tad izvadam(atgriezzam) summu
 }
 
-let calculated_sum = sumAll([1,2,3,4,4,6,7]); //izsauks funkciju
-console.log(calculated_sum);
+let calculated_sum = sumAll([1,2,3,4,4,6,7]); //izsauks funkciju un ierakstis mainigaja
+console.log("SUM: " + calculated_sum); //izvadis funkciju
+
+
+
 /*
 -mainīgie
 -matemātiskās darbības
