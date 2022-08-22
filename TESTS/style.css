@@ -4,4 +4,9 @@
 
 #app_templates {
   display: none;
+}
+
+#app .button {
+  width: 30px;
+  margin: 0 5px 5px 0;
 }/*# sourceMappingURL=style.css.map */
